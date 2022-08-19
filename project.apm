@@ -1,0 +1,26 @@
+{
+    "identifier": "com.my.app",
+    "name": "APM Test Application",
+    "filename": "APMTestApplication",
+    "version": "1.0.0",
+    "versionLabel": "",
+    "dependencies": [
+        {
+            "version": "3.4.0",
+            "id": "com.distriqt.IronSource"
+        },
+        {
+            "version": "5.1.0",
+            "id": "com.distriqt.IDFA"
+        }
+    ],
+    "configuration": {
+        "userTrackingUsageDescription": {
+            "name": "userTrackingUsageDescription",
+            "required": "true",
+            "value": "Allows us to deliver personalized ads for you."
+        }
+    },
+    "repositories": [],
+    "deployOptions": {}
+}

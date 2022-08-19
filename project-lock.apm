@@ -1,0 +1,659 @@
+{
+    "dependencies": [
+        {
+            "packageVersion": {
+                "checksum": "06d661554cf3eeac7b0a2e07e63af7db502e8e8d7bbe5817ac6e950e6703d5a4",
+                "dependencies": [],
+                "package": {
+                    "description": "Google Play Services Ads Identifier dependencies",
+                    "docUrl": "https://github.com/distriqt/ANE-GooglePlayServices/wiki",
+                    "identifier": "com.distriqt.playservices.AdsIdentifier",
+                    "license": {
+                        "public": true,
+                        "type": "none",
+                        "url": ""
+                    },
+                    "name": "Google Play Services Ads Identifier",
+                    "publishedAt": "2021-08-20T03:44:14.300Z",
+                    "purchaseUrl": "",
+                    "type": "ane",
+                    "url": "https://github.com/distriqt/ANE-GooglePlayServices"
+                },
+                "parameters": [],
+                "publishedAt": "2022-06-24T00:00:00.000Z",
+                "sourceUrl": "https://github.com/distriqt/ANE-GooglePlayServices/releases/download/v27.2.0/com.distriqt.playservices.AdsIdentifier_18.0.101.airpackage",
+                "status": "release",
+                "version": "18.0.101"
+            },
+            "request": {
+                "packageIdentifier": "com.distriqt.playservices.AdsIdentifier",
+                "requiringPackage": {
+                    "checksum": "5244c828d1c59255c491c006053334c734dd8cec90848729ee7260052193e653",
+                    "dependencies": [
+                        {
+                            "id": "com.distriqt.Core",
+                            "version": "6.x.x"
+                        },
+                        {
+                            "id": "com.distriqt.playservices.Base",
+                            "version": "18.0.x"
+                        },
+                        {
+                            "id": "androidx.core",
+                            "version": "1.6.x"
+                        },
+                        {
+                            "id": "com.distriqt.playservices.AdsIdentifier",
+                            "version": "18.0.x"
+                        }
+                    ],
+                    "package": {
+                        "description": "The IDFA extension gives you simple access to the advertising identifiers on Android and iOS.",
+                        "docUrl": "https://docs.airnativeextensions.com/docs/idfa",
+                        "identifier": "com.distriqt.IDFA",
+                        "license": {
+                            "public": true,
+                            "type": "airnativeextensions - public",
+                            "url": "https://airnativeextensions.com/license"
+                        },
+                        "name": "IDFA",
+                        "publishedAt": "2021-09-10T07:56:24.840Z",
+                        "purchaseUrl": "https://airnativeextensions.com/extension/com.distriqt.IDFA",
+                        "tags": [
+                            "advertising",
+                            "identifier",
+                            "app-tracking-transparency",
+                            "idfa",
+                            "ios",
+                            "android"
+                        ],
+                        "type": "ane",
+                        "url": "https://airnativeextensions.com/extension/com.distriqt.IDFA"
+                    },
+                    "parameters": [
+                        {
+                            "defaultValue": "Allows us to deliver personalized ads for you.",
+                            "name": "userTrackingUsageDescription",
+                            "required": true
+                        }
+                    ],
+                    "publishedAt": "2022-03-08T00:00:00.000Z",
+                    "sourceUrl": "https://github.com/distriqt/ANE-IDFA/releases/download/v5.1.0/com.distriqt.IDFA_5.1.0.airpackage",
+                    "status": "release",
+                    "version": "5.1.0"
+                },
+                "source": null,
+                "version": "18.0.x"
+            }
+        },
+        {
+            "packageVersion": {
+                "checksum": "d03673239b975ee6e475a15d9f75538dfabd8686fa3d996fc982c51b46c7a2aa",
+                "dependencies": [],
+                "package": {
+                    "description": "Android dependency library",
+                    "docUrl": "https://github.com/distriqt/ANE-AndroidSupport/wiki",
+                    "identifier": "com.jetbrains.kotlin",
+                    "license": {
+                        "public": true,
+                        "type": "none",
+                        "url": ""
+                    },
+                    "name": "JetBrains Kotlin",
+                    "publishedAt": "2021-08-20T02:39:34.868Z",
+                    "purchaseUrl": "",
+                    "type": "ane",
+                    "url": "https://github.com/distriqt/ANE-AndroidSupport"
+                },
+                "parameters": [],
+                "publishedAt": "2022-06-23T00:00:00.000Z",
+                "sourceUrl": "https://github.com/distriqt/ANE-AndroidSupport/releases/download/v2.2.2/com.jetbrains.kotlin_1.4.321.airpackage",
+                "status": "release",
+                "version": "1.4.321"
+            },
+            "request": {
+                "packageIdentifier": "com.jetbrains.kotlin",
+                "requiringPackage": {
+                    "checksum": "d60e78187260c3458f71780e135001052c0a5dcc8be96131be0af6ee229c21af",
+                    "dependencies": [
+                        {
+                            "id": "com.distriqt.Core",
+                            "version": "6.x.x"
+                        },
+                        {
+                            "id": "androidx.core",
+                            "version": "1.6.x"
+                        },
+                        {
+                            "id": "com.distriqt.playservices.AdsIdentifier",
+                            "version": "18.0.x"
+                        },
+                        {
+                            "id": "com.jetbrains.kotlin",
+                            "version": "1.4.x"
+                        },
+                        {
+                            "id": "com.distriqt.playservices.Base",
+                            "version": "18.1.x"
+                        },
+                        {
+                            "id": "com.distriqt.playservices.Ads",
+                            "version": "21.0.x"
+                        }
+                    ],
+                    "package": {
+                        "description": "Monetise your application through advertising with ironSource",
+                        "docUrl": "https://docs.airnativeextensions.com/docs/ironsource",
+                        "identifier": "com.distriqt.IronSource",
+                        "license": {
+                            "public": true,
+                            "type": "airnativeextensions - public",
+                            "url": "https://airnativeextensions.com/license"
+                        },
+                        "name": "IronSource",
+                        "publishedAt": "2021-09-06T02:20:27.163Z",
+                        "purchaseUrl": "https://airnativeextensions.com/extension/com.distriqt.IronSource",
+                        "tags": [
+                            "ios",
+                            "android",
+                            "adverts",
+                            "ads",
+                            "monetisation",
+                            "mediation"
+                        ],
+                        "type": "ane",
+                        "url": "https://airnativeextensions.com/extension/com.distriqt.IronSource"
+                    },
+                    "parameters": [],
+                    "publishedAt": "2022-06-28T00:00:00.000Z",
+                    "sourceUrl": "https://github.com/distriqt/ANE-IronSource/releases/download/v2.9.0/com.distriqt.IronSource_3.4.0.airpackage",
+                    "status": "release",
+                    "version": "3.4.0"
+                },
+                "source": null,
+                "version": "1.4.x"
+            }
+        },
+        {
+            "packageVersion": {
+                "checksum": "d60e78187260c3458f71780e135001052c0a5dcc8be96131be0af6ee229c21af",
+                "dependencies": [
+                    {
+                        "id": "com.distriqt.Core",
+                        "version": "6.x.x"
+                    },
+                    {
+                        "id": "androidx.core",
+                        "version": "1.6.x"
+                    },
+                    {
+                        "id": "com.distriqt.playservices.AdsIdentifier",
+                        "version": "18.0.x"
+                    },
+                    {
+                        "id": "com.jetbrains.kotlin",
+                        "version": "1.4.x"
+                    },
+                    {
+                        "id": "com.distriqt.playservices.Base",
+                        "version": "18.1.x"
+                    },
+                    {
+                        "id": "com.distriqt.playservices.Ads",
+                        "version": "21.0.x"
+                    }
+                ],
+                "package": {
+                    "description": "Monetise your application through advertising with ironSource",
+                    "docUrl": "https://docs.airnativeextensions.com/docs/ironsource",
+                    "identifier": "com.distriqt.IronSource",
+                    "license": {
+                        "public": true,
+                        "type": "airnativeextensions - public",
+                        "url": "https://airnativeextensions.com/license"
+                    },
+                    "name": "IronSource",
+                    "publishedAt": "2021-09-06T02:20:27.163Z",
+                    "purchaseUrl": "https://airnativeextensions.com/extension/com.distriqt.IronSource",
+                    "tags": [
+                        "ios",
+                        "android",
+                        "adverts",
+                        "ads",
+                        "monetisation",
+                        "mediation"
+                    ],
+                    "type": "ane",
+                    "url": "https://airnativeextensions.com/extension/com.distriqt.IronSource"
+                },
+                "parameters": [],
+                "publishedAt": "2022-06-28T00:00:00.000Z",
+                "sourceUrl": "https://github.com/distriqt/ANE-IronSource/releases/download/v2.9.0/com.distriqt.IronSource_3.4.0.airpackage",
+                "status": "release",
+                "version": "3.4.0"
+            },
+            "request": {
+                "packageIdentifier": "com.distriqt.IronSource",
+                "source": null,
+                "version": "3.4.0"
+            }
+        },
+        {
+            "packageVersion": {
+                "checksum": "281c235110c33d5d2f35d7a27ad147b5165a3222d8c897adea21dc937a6a101d",
+                "dependencies": [],
+                "package": {
+                    "description": "Android dependency library",
+                    "docUrl": "https://github.com/distriqt/ANE-AndroidSupport/wiki",
+                    "identifier": "androidx.core",
+                    "license": {
+                        "public": true,
+                        "type": "none",
+                        "url": ""
+                    },
+                    "name": "AndroidX Core",
+                    "publishedAt": "2021-08-20T02:40:36.644Z",
+                    "purchaseUrl": "",
+                    "type": "ane",
+                    "url": "https://github.com/distriqt/ANE-AndroidSupport"
+                },
+                "parameters": [],
+                "publishedAt": "2022-06-23T00:00:00.000Z",
+                "sourceUrl": "https://github.com/distriqt/ANE-AndroidSupport/releases/download/v2.2.2/androidx.core_1.6.2.airpackage",
+                "status": "release",
+                "version": "1.6.2"
+            },
+            "request": {
+                "packageIdentifier": "androidx.core",
+                "requiringPackage": {
+                    "checksum": "5244c828d1c59255c491c006053334c734dd8cec90848729ee7260052193e653",
+                    "dependencies": [
+                        {
+                            "id": "com.distriqt.Core",
+                            "version": "6.x.x"
+                        },
+                        {
+                            "id": "com.distriqt.playservices.Base",
+                            "version": "18.0.x"
+                        },
+                        {
+                            "id": "androidx.core",
+                            "version": "1.6.x"
+                        },
+                        {
+                            "id": "com.distriqt.playservices.AdsIdentifier",
+                            "version": "18.0.x"
+                        }
+                    ],
+                    "package": {
+                        "description": "The IDFA extension gives you simple access to the advertising identifiers on Android and iOS.",
+                        "docUrl": "https://docs.airnativeextensions.com/docs/idfa",
+                        "identifier": "com.distriqt.IDFA",
+                        "license": {
+                            "public": true,
+                            "type": "airnativeextensions - public",
+                            "url": "https://airnativeextensions.com/license"
+                        },
+                        "name": "IDFA",
+                        "publishedAt": "2021-09-10T07:56:24.840Z",
+                        "purchaseUrl": "https://airnativeextensions.com/extension/com.distriqt.IDFA",
+                        "tags": [
+                            "advertising",
+                            "identifier",
+                            "app-tracking-transparency",
+                            "idfa",
+                            "ios",
+                            "android"
+                        ],
+                        "type": "ane",
+                        "url": "https://airnativeextensions.com/extension/com.distriqt.IDFA"
+                    },
+                    "parameters": [
+                        {
+                            "defaultValue": "Allows us to deliver personalized ads for you.",
+                            "name": "userTrackingUsageDescription",
+                            "required": true
+                        }
+                    ],
+                    "publishedAt": "2022-03-08T00:00:00.000Z",
+                    "sourceUrl": "https://github.com/distriqt/ANE-IDFA/releases/download/v5.1.0/com.distriqt.IDFA_5.1.0.airpackage",
+                    "status": "release",
+                    "version": "5.1.0"
+                },
+                "source": null,
+                "version": "1.6.x"
+            }
+        },
+        {
+            "packageVersion": {
+                "checksum": "6861c9b44a2c892b155f72b6c2f56d8e954a41ec5fdb6a148751fa41d661def7",
+                "dependencies": [],
+                "package": {
+                    "description": "Google Play Services Base dependencies",
+                    "docUrl": "https://github.com/distriqt/ANE-GooglePlayServices/wiki",
+                    "identifier": "com.distriqt.playservices.Base",
+                    "license": {
+                        "public": true,
+                        "type": "none",
+                        "url": ""
+                    },
+                    "name": "Google Play Services Base  ",
+                    "publishedAt": "2021-08-20T03:45:04.555Z",
+                    "purchaseUrl": "",
+                    "type": "ane",
+                    "url": "https://github.com/distriqt/ANE-GooglePlayServices"
+                },
+                "parameters": [],
+                "publishedAt": "2022-06-24T00:00:00.000Z",
+                "sourceUrl": "https://github.com/distriqt/ANE-GooglePlayServices/releases/download/v27.2.0/com.distriqt.playservices.Base_18.1.1.airpackage",
+                "status": "release",
+                "version": "18.1.1"
+            },
+            "request": {
+                "packageIdentifier": "com.distriqt.playservices.Base",
+                "requiringPackage": {
+                    "checksum": "d60e78187260c3458f71780e135001052c0a5dcc8be96131be0af6ee229c21af",
+                    "dependencies": [
+                        {
+                            "id": "com.distriqt.Core",
+                            "version": "6.x.x"
+                        },
+                        {
+                            "id": "androidx.core",
+                            "version": "1.6.x"
+                        },
+                        {
+                            "id": "com.distriqt.playservices.AdsIdentifier",
+                            "version": "18.0.x"
+                        },
+                        {
+                            "id": "com.jetbrains.kotlin",
+                            "version": "1.4.x"
+                        },
+                        {
+                            "id": "com.distriqt.playservices.Base",
+                            "version": "18.1.x"
+                        },
+                        {
+                            "id": "com.distriqt.playservices.Ads",
+                            "version": "21.0.x"
+                        }
+                    ],
+                    "package": {
+                        "description": "Monetise your application through advertising with ironSource",
+                        "docUrl": "https://docs.airnativeextensions.com/docs/ironsource",
+                        "identifier": "com.distriqt.IronSource",
+                        "license": {
+                            "public": true,
+                            "type": "airnativeextensions - public",
+                            "url": "https://airnativeextensions.com/license"
+                        },
+                        "name": "IronSource",
+                        "publishedAt": "2021-09-06T02:20:27.163Z",
+                        "purchaseUrl": "https://airnativeextensions.com/extension/com.distriqt.IronSource",
+                        "tags": [
+                            "ios",
+                            "android",
+                            "adverts",
+                            "ads",
+                            "monetisation",
+                            "mediation"
+                        ],
+                        "type": "ane",
+                        "url": "https://airnativeextensions.com/extension/com.distriqt.IronSource"
+                    },
+                    "parameters": [],
+                    "publishedAt": "2022-06-28T00:00:00.000Z",
+                    "sourceUrl": "https://github.com/distriqt/ANE-IronSource/releases/download/v2.9.0/com.distriqt.IronSource_3.4.0.airpackage",
+                    "status": "release",
+                    "version": "3.4.0"
+                },
+                "source": null,
+                "version": "18.1.x"
+            }
+        },
+        {
+            "packageVersion": {
+                "checksum": "e528c5e63e6f7923dd3bb0ed5e83bad5071f2cae52aa5ee6b0e45ad74438c815",
+                "dependencies": [],
+                "package": {
+                    "description": "Google Play Services Ads dependencies",
+                    "docUrl": "https://github.com/distriqt/ANE-GooglePlayServices/wiki",
+                    "identifier": "com.distriqt.playservices.Ads",
+                    "license": {
+                        "public": true,
+                        "type": "none",
+                        "url": ""
+                    },
+                    "name": "Google Play Services Ads  ",
+                    "publishedAt": "2021-08-20T03:44:07.256Z",
+                    "purchaseUrl": "",
+                    "type": "ane",
+                    "url": "https://github.com/distriqt/ANE-GooglePlayServices"
+                },
+                "parameters": [],
+                "publishedAt": "2022-06-24T00:00:00.000Z",
+                "sourceUrl": "https://github.com/distriqt/ANE-GooglePlayServices/releases/download/v27.2.0/com.distriqt.playservices.Ads_21.0.0.airpackage",
+                "status": "release",
+                "version": "21.0.0"
+            },
+            "request": {
+                "packageIdentifier": "com.distriqt.playservices.Ads",
+                "requiringPackage": {
+                    "checksum": "d60e78187260c3458f71780e135001052c0a5dcc8be96131be0af6ee229c21af",
+                    "dependencies": [
+                        {
+                            "id": "com.distriqt.Core",
+                            "version": "6.x.x"
+                        },
+                        {
+                            "id": "androidx.core",
+                            "version": "1.6.x"
+                        },
+                        {
+                            "id": "com.distriqt.playservices.AdsIdentifier",
+                            "version": "18.0.x"
+                        },
+                        {
+                            "id": "com.jetbrains.kotlin",
+                            "version": "1.4.x"
+                        },
+                        {
+                            "id": "com.distriqt.playservices.Base",
+                            "version": "18.1.x"
+                        },
+                        {
+                            "id": "com.distriqt.playservices.Ads",
+                            "version": "21.0.x"
+                        }
+                    ],
+                    "package": {
+                        "description": "Monetise your application through advertising with ironSource",
+                        "docUrl": "https://docs.airnativeextensions.com/docs/ironsource",
+                        "identifier": "com.distriqt.IronSource",
+                        "license": {
+                            "public": true,
+                            "type": "airnativeextensions - public",
+                            "url": "https://airnativeextensions.com/license"
+                        },
+                        "name": "IronSource",
+                        "publishedAt": "2021-09-06T02:20:27.163Z",
+                        "purchaseUrl": "https://airnativeextensions.com/extension/com.distriqt.IronSource",
+                        "tags": [
+                            "ios",
+                            "android",
+                            "adverts",
+                            "ads",
+                            "monetisation",
+                            "mediation"
+                        ],
+                        "type": "ane",
+                        "url": "https://airnativeextensions.com/extension/com.distriqt.IronSource"
+                    },
+                    "parameters": [],
+                    "publishedAt": "2022-06-28T00:00:00.000Z",
+                    "sourceUrl": "https://github.com/distriqt/ANE-IronSource/releases/download/v2.9.0/com.distriqt.IronSource_3.4.0.airpackage",
+                    "status": "release",
+                    "version": "3.4.0"
+                },
+                "source": null,
+                "version": "21.0.x"
+            }
+        },
+        {
+            "packageVersion": {
+                "checksum": "5244c828d1c59255c491c006053334c734dd8cec90848729ee7260052193e653",
+                "dependencies": [
+                    {
+                        "id": "com.distriqt.Core",
+                        "version": "6.x.x"
+                    },
+                    {
+                        "id": "com.distriqt.playservices.Base",
+                        "version": "18.0.x"
+                    },
+                    {
+                        "id": "androidx.core",
+                        "version": "1.6.x"
+                    },
+                    {
+                        "id": "com.distriqt.playservices.AdsIdentifier",
+                        "version": "18.0.x"
+                    }
+                ],
+                "package": {
+                    "description": "The IDFA extension gives you simple access to the advertising identifiers on Android and iOS.",
+                    "docUrl": "https://docs.airnativeextensions.com/docs/idfa",
+                    "identifier": "com.distriqt.IDFA",
+                    "license": {
+                        "public": true,
+                        "type": "airnativeextensions - public",
+                        "url": "https://airnativeextensions.com/license"
+                    },
+                    "name": "IDFA",
+                    "publishedAt": "2021-09-10T07:56:24.840Z",
+                    "purchaseUrl": "https://airnativeextensions.com/extension/com.distriqt.IDFA",
+                    "tags": [
+                        "advertising",
+                        "identifier",
+                        "app-tracking-transparency",
+                        "idfa",
+                        "ios",
+                        "android"
+                    ],
+                    "type": "ane",
+                    "url": "https://airnativeextensions.com/extension/com.distriqt.IDFA"
+                },
+                "parameters": [
+                    {
+                        "defaultValue": "Allows us to deliver personalized ads for you.",
+                        "name": "userTrackingUsageDescription",
+                        "required": true
+                    }
+                ],
+                "publishedAt": "2022-03-08T00:00:00.000Z",
+                "sourceUrl": "https://github.com/distriqt/ANE-IDFA/releases/download/v5.1.0/com.distriqt.IDFA_5.1.0.airpackage",
+                "status": "release",
+                "version": "5.1.0"
+            },
+            "request": {
+                "packageIdentifier": "com.distriqt.IDFA",
+                "source": null,
+                "version": "5.1.0"
+            }
+        },
+        {
+            "packageVersion": {
+                "checksum": "bf982c5632ab1a83bf742d57ecebece44841ea9faf5a9e7c87034a461a88b0a1",
+                "dependencies": [],
+                "package": {
+                    "description": "Extension providing a centralised library for native extension common utilities and a notification / delegation system",
+                    "docUrl": "https://github.com/distriqt/ANE-Core/wiki",
+                    "identifier": "com.distriqt.Core",
+                    "license": {
+                        "public": true,
+                        "type": "none",
+                        "url": ""
+                    },
+                    "name": "Core Native Extension",
+                    "publishedAt": "2021-06-18T04:09:04.984Z",
+                    "purchaseUrl": "",
+                    "tags": [
+                        "ios",
+                        "android",
+                        "core",
+                        "common"
+                    ],
+                    "type": "ane",
+                    "url": "https://github.com/distriqt/ANE-Core"
+                },
+                "parameters": [],
+                "publishedAt": "2022-08-01T12:47:05.000Z",
+                "sourceUrl": "https://github.com/distriqt/ANE-Core/releases/download/v6.4.8/com.distriqt.Core_6.4.8.airpackage",
+                "status": "release",
+                "version": "6.4.8"
+            },
+            "request": {
+                "packageIdentifier": "com.distriqt.Core",
+                "requiringPackage": {
+                    "checksum": "5244c828d1c59255c491c006053334c734dd8cec90848729ee7260052193e653",
+                    "dependencies": [
+                        {
+                            "id": "com.distriqt.Core",
+                            "version": "6.x.x"
+                        },
+                        {
+                            "id": "com.distriqt.playservices.Base",
+                            "version": "18.0.x"
+                        },
+                        {
+                            "id": "androidx.core",
+                            "version": "1.6.x"
+                        },
+                        {
+                            "id": "com.distriqt.playservices.AdsIdentifier",
+                            "version": "18.0.x"
+                        }
+                    ],
+                    "package": {
+                        "description": "The IDFA extension gives you simple access to the advertising identifiers on Android and iOS.",
+                        "docUrl": "https://docs.airnativeextensions.com/docs/idfa",
+                        "identifier": "com.distriqt.IDFA",
+                        "license": {
+                            "public": true,
+                            "type": "airnativeextensions - public",
+                            "url": "https://airnativeextensions.com/license"
+                        },
+                        "name": "IDFA",
+                        "publishedAt": "2021-09-10T07:56:24.840Z",
+                        "purchaseUrl": "https://airnativeextensions.com/extension/com.distriqt.IDFA",
+                        "tags": [
+                            "advertising",
+                            "identifier",
+                            "app-tracking-transparency",
+                            "idfa",
+                            "ios",
+                            "android"
+                        ],
+                        "type": "ane",
+                        "url": "https://airnativeextensions.com/extension/com.distriqt.IDFA"
+                    },
+                    "parameters": [
+                        {
+                            "defaultValue": "Allows us to deliver personalized ads for you.",
+                            "name": "userTrackingUsageDescription",
+                            "required": true
+                        }
+                    ],
+                    "publishedAt": "2022-03-08T00:00:00.000Z",
+                    "sourceUrl": "https://github.com/distriqt/ANE-IDFA/releases/download/v5.1.0/com.distriqt.IDFA_5.1.0.airpackage",
+                    "status": "release",
+                    "version": "5.1.0"
+                },
+                "source": null,
+                "version": "6.x.x"
+            }
+        }
+    ],
+    "uninstalledPackageIdentifiers": []
+}
